@@ -27,6 +27,7 @@ import LogoCollection from 'src/assets/icons/map-collection.svg'
 import LogoMember from 'src/assets/icons/map-member.svg'
 import LogoMachine from 'src/assets/icons/map-machine.svg'
 import LogoCommunity from 'src/assets/icons/map-community.svg'
+import LogoVerified from 'src/assets/icons/map-verified.svg'
 
 // assets workspaceType
 import Extrusion from 'src/assets/images/workspace-focus/extrusion.png'
@@ -393,6 +394,12 @@ export const PROFILE_TYPES: IProfileType[] = [
     textLabel: 'I collect & sort plastic',
     imageSrc: CollectionBadge,
     cleanImageSrc: LogoCollection,
+  },
+  {
+    label: 'verified',
+    textLabel: 'I am verified',
+    imageSrc: MemberBadge,
+    cleanImageSrc: LogoVerified,
   },
 ]
 

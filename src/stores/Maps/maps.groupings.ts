@@ -64,6 +64,12 @@ const GROUPINGS: IMapGrouping[] = [
     type: 'community-builder',
     icon: '',
   },
+  {
+    grouping: 'individual',
+    displayName: 'Verified',
+    type: 'verified',
+    icon: '',
+  },
 ]
 
 // merge groupings with icons above for export

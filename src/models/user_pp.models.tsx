@@ -23,6 +23,7 @@ export type ProfileTypeLabel =
   | 'community-builder'
   | 'collection-point'
   | 'machine-builder'
+  | 'verified'
 
 export type WorkspaceType =
   | 'shredder'

@@ -360,6 +360,7 @@ export class UserPage extends React.Component<
       'machine-builder': 'Machine Builder',
       member: 'Member',
       workspace: 'Workspace',
+      verified: 'Verified',
     }
     return (
       <Heading small bold width={1} capitalize>
